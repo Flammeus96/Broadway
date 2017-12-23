@@ -7,7 +7,10 @@ html {
 
 #background {
   color: white;
-  background-image: url("../../resource/images/the-flatiron-building.png");
+  background-image: url('../../resource/images/the-flatiron-building.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 #fineprint {
@@ -19,12 +22,30 @@ html {
 
 /* tag modifiers */
 
-h1 {
+h1,
+h3,
+h2,
+a {
+  font-weight: bold;
+}
 
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 23px;
 }
 
 a {
   color: white;
-  font-weight: bold;
   font-size: 18px;
+}
+
+p {
+  font-size: 14px;
 }
